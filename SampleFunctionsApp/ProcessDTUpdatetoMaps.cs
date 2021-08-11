@@ -33,16 +33,16 @@ namespace updateMaps
                 // Logic to retrive feature id
                 // Connect digital twin "zone" to unit/feature in Azure maps
                 // string featureID = "UNIT25";
-                string featureID;
-                if (eventGridEvent.Subject == "bme280A")
+                string featureID = "";
+                if (eventGridEvent.Subject == "zoneB")
                 {
-                    featureID = "UNIT25";
+                    featureID = "UNIT13";
                 }
-                else if (eventGridEvent.Subject == "bme280B") {
-                    featureID = "UNIT26";
+                else if (eventGridEvent.Subject == "zoneA") {
+                    featureID = "UNIT14";
                 }
 
-
+                log.LogInformation($"Update came from: { eventGridEvent.Subject }, and routed to: {featureID} ");
                 // Iterate through the properties that have changed
                 foreach (var operation in message["data"]["patch"])
                 {
