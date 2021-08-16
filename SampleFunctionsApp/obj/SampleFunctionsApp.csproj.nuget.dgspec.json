@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleFunctionsApp\\SampleFunctionsApp.csproj": {}
+    "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleFunctionsApp\\SampleFunctionsApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleFunctionsApp\\SampleFunctionsApp.csproj": {
+    "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleFunctionsApp\\SampleFunctionsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleFunctionsApp\\SampleFunctionsApp.csproj",
+        "projectUniqueName": "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleFunctionsApp\\SampleFunctionsApp.csproj",
         "projectName": "SampleFunctionsApp",
-        "projectPath": "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleFunctionsApp\\SampleFunctionsApp.csproj",
+        "projectPath": "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleFunctionsApp\\SampleFunctionsApp.csproj",
         "packagesPath": "C:\\Users\\henrikhansen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleFunctionsApp\\obj\\",
+        "outputPath": "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleFunctionsApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\NuGet.Config",
+          "C:\\Users\\henrikhansen\\Documents\\azFunctions\\NuGet.Config",
           "C:\\Users\\henrikhansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -60,6 +60,10 @@
             "Microsoft.Azure.WebJobs.Extensions.EventGrid": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.EventHubs": {
+              "target": "Package",
+              "version": "[4.1.1, )"
             },
             "Microsoft.NET.Sdk.Functions": {
               "target": "Package",
