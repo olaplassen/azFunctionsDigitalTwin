@@ -64,6 +64,24 @@ namespace updateMaps
 
                         log.LogInformation(await response.Content.ReadAsStringAsync());
                     }
+                    if (operation["op"].ToString() == "replace" && operation["path"].ToString() == "/Humidity")
+                    {
+                        // Update the maps feature stateset
+                        var postcontent = new JObject(
+                            new JProperty(
+                                "States",
+                                new JArray(
+                                    new JObject(
+                                        new JProperty("keyName", "Humidity"),
+                                        new JProperty("value", operation["value"]),
+                                        new JProperty("eventTimestamp", DateTime.UtcNow.ToString("s"))))));
+
+                        var response = await httpClient.PutAsync(
+                            $"https://us.atlas.microsoft.com/featurestatesets/{statesetID}/featureStates/{featureID}?api-version=2.0&subscription-key={subscriptionKey}",
+                            new StringContent(postcontent.ToString()));
+
+                        log.LogInformation(await response.Content.ReadAsStringAsync());
+                    }
                 }
             }
         }
