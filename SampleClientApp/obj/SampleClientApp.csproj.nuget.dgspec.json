@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleClientApp\\SampleClientApp.csproj": {}
+    "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleClientApp\\SampleClientApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleClientApp\\SampleClientApp.csproj": {
+    "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleClientApp\\SampleClientApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleClientApp\\SampleClientApp.csproj",
+        "projectUniqueName": "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleClientApp\\SampleClientApp.csproj",
         "projectName": "SampleClientApp",
-        "projectPath": "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleClientApp\\SampleClientApp.csproj",
+        "projectPath": "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleClientApp\\SampleClientApp.csproj",
         "packagesPath": "C:\\Users\\henrikhansen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleClientApp\\obj\\",
+        "outputPath": "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleClientApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\henrikhansen\\Documents\\azFunctions\\NuGet.Config",
+          "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\NuGet.Config",
           "C:\\Users\\henrikhansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

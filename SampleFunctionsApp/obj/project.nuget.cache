@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w0BddetS2bQob8uAfqhzQXO7NLwjoDxBoNCAyUJzqFw04L7O7+Ny/B4FZ1SmfB5W9Qel5cY8IlPK8JzYhTo+Pg==",
+  "dgSpecHash": "0d+LjxfBJ0kaxjmK9qsX4w3bi9K69jKCKmpxGScS4Jj8AG9lyNcCxrZq25oOBIocWVqpsDCBSKdC8D+u7HVZJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\henrikhansen\\Documents\\azFunctions\\SampleFunctionsApp\\SampleFunctionsApp.csproj",
+  "projectFilePath": "C:\\Users\\henrikhansen\\Documents\\Microsoft-end-to-end-solution\\digital-twins-samples-master\\AdtSampleApp\\SampleFunctionsApp\\SampleFunctionsApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\henrikhansen\\.nuget\\packages\\azure.core\\1.14.0\\azure.core.1.14.0.nupkg.sha512",
     "C:\\Users\\henrikhansen\\.nuget\\packages\\azure.digitaltwins.core\\1.2.2\\azure.digitaltwins.core.1.2.2.nupkg.sha512",

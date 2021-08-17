@@ -16,7 +16,8 @@ namespace updateMaps
     {
         // Read maps credentials from application settings on function startup
         // Stored as variables in Digitaltwins resource
-        private static string statesetID = Environment.GetEnvironmentVariable("statesetID");
+        private static string statesetID1 = Environment.GetEnvironmentVariable("statesetID1");
+        private static string statesetID2 = Environment.GetEnvironmentVariable("statesetID2");
         private static string subscriptionKey = Environment.GetEnvironmentVariable("subscription-key");
         private static HttpClient httpClient = new HttpClient();
 
@@ -59,7 +60,7 @@ namespace updateMaps
                                         new JProperty("eventTimestamp", DateTime.UtcNow.ToString("s"))))));
 
                         var response = await httpClient.PutAsync(
-                            $"https://us.atlas.microsoft.com/featurestatesets/{statesetID}/featureStates/{featureID}?api-version=2.0&subscription-key={subscriptionKey}",
+                            $"https://us.atlas.microsoft.com/featurestatesets/{statesetID1}/featureStates/{featureID}?api-version=2.0&subscription-key={subscriptionKey}",
                             new StringContent(postcontent.ToString()));
 
                         log.LogInformation(await response.Content.ReadAsStringAsync());
@@ -77,7 +78,7 @@ namespace updateMaps
                                         new JProperty("eventTimestamp", DateTime.UtcNow.ToString("s"))))));
 
                         var response = await httpClient.PutAsync(
-                            $"https://us.atlas.microsoft.com/featurestatesets/{statesetID}/featureStates/{featureID}?api-version=2.0&subscription-key={subscriptionKey}",
+                            $"https://us.atlas.microsoft.com/featurestatesets/{statesetID2}/featureStates/{featureID}?api-version=2.0&subscription-key={subscriptionKey}",
                             new StringContent(postcontent.ToString()));
 
                         log.LogInformation(await response.Content.ReadAsStringAsync());
